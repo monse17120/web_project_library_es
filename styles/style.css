@@ -7,9 +7,9 @@ body {
 }
 
 .page {
-  max-width: 1024px; /* Ajustado según el brief */
-  min-width: 320px; /* Ajustado */
-  line-height: 1.5; /* Ajustado */
+  max-width: 960px; /* Ajustado según el brief */
+  min-width: 375px; /* Ajustado */
+  line-height: 1.6; /* Ajustado */
   font-size: 16px;
   margin: 0 auto;
 }
@@ -32,8 +32,8 @@ body {
 }
 
 .nav__logo {
-  width: 90px; /* Ajustado según el brief */
-  height: auto;
+  width: 80px; /* Ajustado según el brief */
+  height: 40px; /* Ajustado */
 }
 
 .nav__links {
@@ -41,7 +41,7 @@ body {
   list-style-type: none;
   column-gap: 20px;
   padding: 0;
-  margin-top: 5px; /* Ajustado */
+  margin-top: 15px; /* Ajustado según el brief */
 }
 
 .nav__link {
@@ -57,43 +57,35 @@ body {
 }
 
 .header__title {
-  max-width: 700px; /* Ajustado */
-  font-size: 62px;
-  line-height: 76px;
-  font-weight: 700; /* Ajustado */
-  margin-top: 10px; /* Ajustado */
+  max-width: 600px; /* Ajustado según el brief */
+  font-weight: 800; /* Ajustado */
+  margin-top: 25px; /* Ajustado */
+  font-size: 48px;
+  line-height: 60px;
 }
 
 .header__description {
-  max-width: 500px; /* Ajustado */
+  max-width: 480px; /* Ajustado según el brief */
   font-size: 18px; /* Ajustado */
-  line-height: 1.4; /* Ajustado */
-  margin-top: 10px; /* Ajustado */
+  line-height: 1.5; /* Ajustado */
+  margin-top: 20px; /* Ajustado */
 }
 
 /* Nueva clase agregada */
-.header__image {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+.header__link {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
 }
 
-/* Nueva clase agregada */
-.header__address {
-  font-size: 14px;
-  color: #666;
-  text-align: center;
-  margin-top: 10px;
-}
-
-/* Nueva clase agregada */
 .header__footer {
   text-align: center;
   font-size: 12px;
   color: #999;
   margin-top: 20px;
 }
+
+/* Estilos de las cards */
 .staff__cards {
   display: flex;
   flex-wrap: wrap;
@@ -105,7 +97,6 @@ body {
 }
 
 .card {
-  flex: 1 1 48%; /* Dos columnas con espacio uniforme */
   max-width: 360px;
   height: 420px;
   display: flex;
@@ -143,4 +134,3 @@ body {
   line-height: 20px;
   color: #838383;
 }
-

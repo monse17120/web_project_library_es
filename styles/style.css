@@ -7,9 +7,9 @@ body {
 }
 
 .page {
-  max-width: 1200px; /* Ajustado según el brief */
-  min-width: 375px; /* Asegurar compatibilidad con móviles */
-  line-height: 1.6; /* Ajustado */
+  max-width: 1024px; /* Ajustado según el brief */
+  min-width: 320px; /* Ajustado */
+  line-height: 1.5; /* Ajustado */
   font-size: 16px;
   margin: 0 auto;
 }
@@ -32,8 +32,8 @@ body {
 }
 
 .nav__logo {
-  width: 120px; /* Ajustado según el brief */
-  height: 60px; /* Ajustado */
+  width: 90px; /* Ajustado según el brief */
+  height: auto;
 }
 
 .nav__links {
@@ -41,7 +41,7 @@ body {
   list-style-type: none;
   column-gap: 20px;
   padding: 0;
-  margin-top: 10px; /* Ajustado */
+  margin-top: 5px; /* Ajustado */
 }
 
 .nav__link {
@@ -57,21 +57,40 @@ body {
 }
 
 .header__title {
-  max-width: 800px; /* Ajustado */
+  max-width: 700px; /* Ajustado */
   font-size: 62px;
   line-height: 76px;
-  font-weight: 600; /* Ajustado */
-  margin-top: 20px; /* Ajustado */
+  font-weight: 700; /* Ajustado */
+  margin-top: 10px; /* Ajustado */
 }
 
 .header__description {
-  max-width: 600px; /* Ajustado */
-  margin-top: 15px; /* Ajustado */
+  max-width: 500px; /* Ajustado */
+  font-size: 18px; /* Ajustado */
+  line-height: 1.4; /* Ajustado */
+  margin-top: 10px; /* Ajustado */
 }
 
 /* Nueva clase agregada */
-.header__link {
-  text-decoration: none;
-  color: #000;
-  font-weight: bold;
+.header__image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Nueva clase agregada */
+.header__address {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Nueva clase agregada */
+.header__footer {
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+  margin-top: 20px;
 }

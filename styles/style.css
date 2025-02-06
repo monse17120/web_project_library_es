@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #ffffff;
   color: #000000;
   line-height: 1.5;
@@ -90,6 +90,7 @@ body {
   color: #838383;
 }
 
+/* Ajuste para los bloques de contenido */
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   padding: 100px 0 140px;
@@ -167,3 +168,4 @@ body {
   line-height: 20px;
   color: #838383;
 }
+

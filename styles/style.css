@@ -7,10 +7,10 @@ body {
 }
 
 .page {
-  max-width: 1280px;
-  min-width: 375px;
+  max-width: 1100px;
+  min-width: 320px;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.5;
   margin: 0 auto;
 }
 
@@ -18,20 +18,20 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .nav__logo {
-  width: 120px;
+  width: 100px;
   height: auto;
 }
 
 .nav__links {
   display: flex;
   list-style-type: none;
-  column-gap: 24px;
+  column-gap: 20px;
   padding: 0;
-  margin-top: 10px;
+  margin-top: 0;
 }
 
 .nav__link {
@@ -44,7 +44,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  padding: 40px 100px;
+  padding: 30px 80px;
   background: url("../images/header-background.jpg") no-repeat center/cover;
   box-sizing: border-box;
 }
@@ -56,23 +56,23 @@ body {
 }
 
 .header__title {
-  font-size: 56px;
-  line-height: 72px;
-  font-weight: 700;
-  margin: 0 0 16px;
+  font-size: 62px;
+  line-height: 76px;
+  font-weight: 400;
+  margin: 0;
 }
 
 .header__description {
-  font-size: 18px;
-  line-height: 28px;
-  max-width: 640px;
-  margin-top: 24px;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 600px;
+  margin-top: 20px;
   color: #333;
 }
 
 .header__image {
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
   height: auto;
 }
 

@@ -7,10 +7,10 @@ body {
 }
 
 .page {
-  max-width: 1100px;
-  min-width: 320px;
+  max-width: 1200px;
+  min-width: 375px;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.6;
   margin: 0 auto;
 }
 
@@ -32,8 +32,8 @@ body {
 }
 
 .nav__logo {
-  width: 100px;
-  height: auto;
+  width: 120px;
+  height: 60px;
 }
 
 .nav__links {
@@ -41,7 +41,7 @@ body {
   list-style-type: none;
   column-gap: 20px;
   padding: 0;
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 .nav__link {
@@ -57,10 +57,11 @@ body {
 }
 
 .header__title {
-  font-size: 62px;
-  line-height: 76px;
-  font-weight: 700;
-  margin: 0;
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 600;
+  max-width: 800px;
+  margin-top: 20px;;
 }
 
 .header__description {
@@ -131,6 +132,7 @@ body {
 }
 
 .card {
+  flex: 1 1 48%; /* Dos columnas con espacio uniforme */
   max-width: 360px;
   height: 420px;
   display: flex;
@@ -167,4 +169,10 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #838383;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
 }

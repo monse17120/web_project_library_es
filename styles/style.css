@@ -7,7 +7,7 @@ body {
 }
 
 .page {
-  max-width: 1100px;
+  max-width: 760px;
   min-width: 320px;
   font-size: 16px;
   line-height: 1.5;
@@ -32,8 +32,8 @@ body {
 }
 
 .nav__logo {
-  width: 100px;
-  height: auto;
+  width: auto;
+  height: 60px;
 }
 
 .nav__links {
@@ -41,7 +41,7 @@ body {
   list-style-type: none;
   column-gap: 20px;
   padding: 0;
-  margin-top: 0;
+  margin-top: auto;
 }
 
 .nav__link {
@@ -60,18 +60,19 @@ body {
   font-size: 62px;
   line-height: 76px;
   font-weight: 700;
-  margin: 0;
+  margin-bottom: 0;
 }
 
 .header__description {
   font-size: 20px;
   line-height: 30px;
-  max-width: 600px;
-  margin-top: 20px;
+  max-width: 500px;
+  margin-top: 0;
   color: #333;
 }
 
 .header__image {
+  width: 100%;
   max-width: 500px;
   height: auto;
 }
@@ -88,6 +89,12 @@ body {
 .header__address {
   margin: 0;
   color: #838383;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
 }
 
 /* Ajuste para los bloques de contenido */
@@ -131,6 +138,7 @@ body {
 }
 
 .card {
+  flex: 1 1 48%;
   max-width: 360px;
   height: 420px;
   display: flex;
@@ -168,4 +176,5 @@ body {
   line-height: 20px;
   color: #838383;
 }
+
 

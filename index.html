@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
@@ -8,28 +8,27 @@
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
-
   <body>
     <div class="page">
       <header class="header">
         <nav class="nav">
-          <img
-            src="./images/logo.svg"
-            alt="Logotipo de la Biblioteca Triple Peaks"
-            class="nav__logo"
-          />
+          <img src="./images/logo.svg"  alt="Logotipo de la Biblioteca Triple Peaks"
+            class="nav__logo" />
           <ul class="nav__links">
+            <li> <a class="nav__link" href="#staff"
+                >Los preferidos de nuestro staff</a>  </li>
             <li>
-              <a href="#staff" class="nav__link"
-                >Los preferidos de nuestro staff</a
-              >
+              <a class="nav__link" href="#events">Eventos</a>
             </li>
-            <li><a href="#" class="nav__link">Eventos</a></li>
-            <li><a href="#" class="nav__link">Conviértete en miembro</a></li>
-            <li><a href="#" class="nav__link">Contactos</a></li>
+            <li>
+              <a class="nav__link" href="#membership">Conviértete en miembro</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#footer">Contactos</a>
+            </li>
           </ul>
         </nav>
-        <div class="header__content">
+        <section class="header__content" id="header-content">
           <div>
             <h1 class="header__title">
               Bienvenidos a la biblioteca Triple Peaks
@@ -44,16 +43,14 @@
           <img
             src="./images/inside_the_library.png"
             alt="Ilustración 'Dentro de la biblioteca'"
-            class="header__image"
-          />
-        </div>
-        <div class="header__footer">
-          <p class="header__address">Triple Peaks, 200 Success Avenue</p>
-        </div>
+            class="header__image"/>
+        </section>
       </header>
-
-      <main>
-        <section id="staff" class="staff">
+      <div class="header__footer">
+        <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+      </div>
+      <main class="content">
+        <section class="staff" id="staff">
           <h2 class="staff__title">Los preferidos de nuestro staff</h2>
           <p class="staff__subtitle">Que nuestros lectores y lectoras aman</p>
           <ul class="staff__cards">
@@ -62,7 +59,7 @@
                 <h3 class="card__title">Introducción a los algoritmos</h3>
                 <p class="card__text">
                   El nombre de este libro se explica por sí solo; ¡es una buena
-                  introducción a los algoritmos! Introducción a los algoritmos,
+                  Introducción a los algoritmos! Introducción a los algoritmos,
                   o CLRS, en referencia a los apellidos de los autores,
                   profundiza y abarca una serie de algoritmos a lo largo de
                   varios capítulos independientes.
@@ -103,9 +100,8 @@
                   abarca las técnicas y herramientas de la verdadera artesanía
                   de software. Explica cómo escribir código limpio y muestra
                   cómo cultivar la actitud de un programador experto y
-                  profesional.
-                </p>
-                <p class="card__footer">Robert C. Martin</p>
+                  profesional. </p>
+                <p class="card__footer">Steve McConnell</p>
               </div>
             </li>
             <li class="card">
@@ -127,6 +123,65 @@
               </div>
             </li>
           </ul>
+        </section>
+        <section class="events" id="events">
+          <div class="events__content">
+            <h2 class="events__heading">Próximos eventos:</h2>
+            <h3 class="events__title">  En honor de Joan Feynman: mujeres en la astrofísica  </h3>
+            <div class="event-info events__info-section">
+              <div class="event-info__item">
+                <img src="./images/icon_calendar.svg"
+                  alt="Calendar icon"
+                  class="event-info__icon"
+                />  <p class="event-info__text">Lunes 12 de enero</p>
+              </div>   <div class="event-info__item">
+                <img src="./images/icon_pin.svg"
+                  alt="Pin icon" class="event-info__icon" />
+                <p class="event-info__text"> Sala de conferencias y virtual de la biblioteca Triple Peaks</p>
+              </div>
+            </div>
+            <p class="events__description">
+              En este evento, en el que celebramos el nombre de nuestra
+              biblioteca, nuestra invitada nos llevará a través de un viaje para
+              conocer a algunas de las mujeres investigadoras más importantes en
+              el mundo de la ciencia espacial. Es fácil caer en la falsa idea de
+              que este campo está principalmente dominado por hombres, pero
+              nuestra conferencia busca cambiar esa noción y probar que no ha
+              sido así desde, al menos, el siglo XVII.</p>
+            <a href="#" class="events__more">Más eventos &rarr;</a>
+          </div>
+          <div class="events__cover">
+            <img src="images/cafe.png" alt="Espacio de trabajo con cafetería integrada."
+              class="events__image"/>
+            <div class="person person_name_feynman">
+              <p class="person__caption">Joan Feynman</p>
+              <img class="person__image person__image_size_l"
+                src="images/person_feynman.png"
+                alt="Imagen de Joan Feyman /> </div>
+            <div class="person person_name_burbidge">
+              <p class="person__caption">Margaret Burbidge</p>
+              <img class="person__image person__image_size_m"
+                src="images/person_burbidge.png"
+                alt="Imagen de Margaret Burbidge"/>
+            </div>
+            <div class="person person_name_cannon">
+              <img class="person__image person__image_size_m"
+                src="images/person_cannon.png"
+                alt="Imagen de Annie Jump Cannon"/>
+              <p class="person__caption">Annie Jump Cannon</p>
+            </div>
+            <div class="person person_name_mitchell">
+              <img class="person__image person__image_size_s"
+                src="images/person_mitchell.png"
+                alt="Imagen de Maria Mitchell"/>
+              <p class="person__caption">Maria Mitchell</p>
+            </div>
+           <div class="person person_name_tarter">
+              <p class="person__caption">Jill Tarter</p>
+              <img class="person__image person__image_size_m"
+                src="images/person_tarter.png"
+                alt="Imagen de Jill Tarter"/> </div>
+          </div>
         </section>
       </main>
     </div>
